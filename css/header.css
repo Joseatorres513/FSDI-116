@@ -45,3 +45,16 @@ header {
 .nav-options a:hover {
     border-bottom: solid 2px white;
 }
+
+/*Ham Button*/
+.nav-btn span {
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    margin: 6px 0px;
+    display: block;
+}
+
+#nav-check, .nav-btn {
+    display: none;
+}

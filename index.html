@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Base and Header Styles -->
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/responsive.css"> <!-- Always last -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
 
     <title>116 Portfolio - Jose</title>
 </head>
+
 <body>
-    
+
+    <!-- Responsive Header -->
     <header class="site-header">
         <div class="header-left-side">
             <a href="">
@@ -25,15 +30,55 @@
             </a>
         </div>
 
+        <input type="checkbox" id="nav-check" />
+        <label for="nav-check" class="nav-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
         <nav class="header-right-side">
             <div class="nav-options">
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Experience</a>
-                <a href="">Contact Me</a>
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="#">Experience</a>
+                <a href="#">Contact Me</a>
             </div>
         </nav>
     </header>
 
+    <!-- About Me Section -->
+    <section class="about-section">
+        <div class="about-container">
+
+            <!-- Left Side: Image -->
+            <div class="about-left">
+                <img src="img/headshot.png" alt="Headshot" />
+            </div>
+
+            <!-- Right Side: Info -->
+        <div class="about-right"></div>
+            <div class="about-text">
+                <h3>My Role As A Dev</h3>
+                <h4><a href="#">Jose A Torres</a></h4>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur. Diam porttitor nisl lacinia id viverra dignissim eu iaculis.
+                    In sit pharetra rutrum lacus vehicula nunc sit varius. Odio ultricies faucibus aliquam dis.
+                    Dictumst adipiscing tincidunt nunc rhoncus. Quisque neque sapien feugiat id dapibus ut risus.
+                </p>
+
+                <p>
+                    Integer nisi cursus turpis tempus eget tincidunt fringilla cras. Bibendum cursus cursus enim
+                    elit at risus in etiam. Vitae a condimentum et sed integer neque quam et arcu.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript (optional if needed) -->
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

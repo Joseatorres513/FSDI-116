@@ -1,6 +1,6 @@
 :root { 
-    --primary-color: #37474F;
-    --background-color: #F5F8FF;
+    --primary-color: #000000;
+    --background-color: #A6A5AD;
     --header-orange: #e64a20;
     --text-light: #ffffff;
     --lobster-font: "Lobster Two", sans-serif;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    color: var(--background-color);
+    color: var(--text-light);
     font-family: var(--lobster-font);
     font-size: 1.7rem;
 }
@@ -88,7 +88,7 @@ h2 {
     font-size: 1.2rem;
 }
 
-.skills-tech {
+.skills-list {
     margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +96,7 @@ h2 {
     gap: 1rem;
 }
 
-.skills-tech .btn {
+.skills-list .btn {
     padding: 0.6rem 1rem;
     border: none;
     border-radius: 8px;
@@ -108,6 +108,6 @@ h2 {
     transition: background-color 0.3s;
 }
 
-.skills-tech .btn:hover {
+.skills-list .btn:hover {
     background-color: #cc3e1c;
 }
